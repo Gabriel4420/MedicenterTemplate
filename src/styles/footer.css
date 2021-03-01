@@ -1,0 +1,106 @@
+
+footer{
+  display:flex;
+  justify-content:center;
+  background-color:#1e1e1e;
+  color:white;
+}
+
+.footer_menu{
+  display:flex;
+  padding-bottom: 20px;
+}
+
+.footer_menu a{
+  text-decoration:none;
+  display:block;
+  padding: 20px;
+}
+
+.fm_1,.fm_2,.fm_3{
+  flex:1;
+}
+
+.fm_1 .bannerTitle, .fm_2 .bannerTitle, .fm_3 .bannerTitle{
+  color:white;
+}
+
+.fm_1 .bannerDesc, .fm_2 .bannerDesc, .fm_3 .bannerDesc{
+  color:white;
+}
+
+.fm_1 {
+  background-color: #39aae1;
+  
+}
+
+.fm_2 {
+  background-color: #0079c7;
+}
+
+.fm_3 {
+  background-color: #2b4c99;
+}
+
+.footer_area{
+  display:flex; 
+  color:white;
+}
+
+.footer_areaItem{
+  flex:1;
+}
+
+.sizeText{
+  font-size:12px;
+  
+}
+
+footer .widget_title_text{
+  color:white;
+}
+
+.footer_copy{
+  padding: 20px;
+  border-top:1px solid #2c2c2c;
+  text-align:center;
+  line-height:40px;
+  color:#cac6c6;
+  font-size:16px;
+}
+
+footer .media_social img {
+  width: 35px;
+  height: 35px;
+  
+}
+
+footer .social_icon{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.icon1,
+.icon2,
+.icon3 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 5px;
+}
+
+footer .fone_contact {
+  line-height: 30px;
+  padding-top: 10px;
+  font-size: 13px;
+  text-align:left;
+  display: flex;
+  justify-content: space-between;
+}
+footer .fone_contact a {
+  text-decoration: none;
+  color:white;
+}
+footer .fone_contact a:hover {
+  text-decoration: underline;
+}
