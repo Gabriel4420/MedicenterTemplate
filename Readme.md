@@ -26,7 +26,7 @@
 ---
 
 <p align="center">
-  <img alt="Gif da Aplicação" src="assets/HomeApp.png" />
+  <img alt="Gif da Aplicação" src="../src/assets/HomeApp.png" />
 </p>
 
 ---
@@ -40,27 +40,13 @@
 
 ## :rocket: Sobre o Projeto
 
-A proposta da caculadora IMC, é calcular o Indice de massa corporal e verificar os estados de obesidade de uma pessoa.
+Layout feito nas aulas de html e css da b7web para estudo sobre flexbox e suas propriedades
 
 ---
 
 ## 👨‍💻️ Tecnogias utilizadas
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
-- [Dart](https://dart.dev/)
-
-
-### Dependências
-
-  - [flutter](https://flutter.dev)
-
-
-### Padronização de código
-
-  - [ESLint](https://eslint.org/)
-  - [Prettier](https://prettier.io/)
-  - :mouse: [Editor Config](https://editorconfig.org/)
+HTML5, CSS3, Javascript Vanilla
 
 ### IDE
 
@@ -76,42 +62,7 @@ Para copiar o projeto, utilize os comandos:
   # Clonar o repositório
   ❯ git clone https://github.com/Gabriel4420/MedicenterTemplate.git
 
-  # Entrar no diretório
-  ❯ cd calculadora_imc 
 ```
-Para instalar as dependências e iniciar o projeto, você pode utilizar o flutter ou pub:
-
-**Utilizando flutter**
-
-```bash
-  # verificar as dependências
-  ❯ flutter doctor
-  # Ativar a função flutter web
-  ❯ flutter create .
-  ❯ flutter channel beta
-  ❯ flutter upgrade
-  ❯ flutter config --enable-web
-
-  # verificar dispositivos disponiveis
-  ❯ flutter devices
- 
-  # Iniciar o projeto
-  ❯ flutter run -d chrome
-```
-
-**Utilizando pub**
-
-*PS: utilize o pub get, para atualizar as dependências, tome cuidado, pois dependendo da versão da dependência, pode ser que o projeto não funcione como o esperado.*
-
-```bash
-  # Atualizar as dependências
-  ❯ flutter pub get
-
-  # Iniciar o projeto
-  ❯ flutter run -d chrome
-```
-
----
 
 <h4 align="center">
   Feito com ❤️ por Gabriel Rodrigues 👋️ <a href="mailto:gabriel_rodrigues_perez@hotmail.com">Entre em contato!</a>
